@@ -1,0 +1,528 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/index.css">
+<link rel="stylesheet" type="text/css" href="CSS/head.css">
+<link rel="stylesheet" type="text/css" href="CSS/foot.css">
+<link rel="stylesheet" type="text/css" href="CSS/aside.css">
+<script>
+	document.createElement("header");
+	document.createElement("nav");
+	document.createElement("section");
+	document.createElement("footer");
+	document.createElement("figure");
+	document.createElement("figcaption");
+	document.createElement("hgroup");
+	document.createElement("aside");
+	document.createElement("article");
+	document.createElement("legend");
+	document.createElement("dialog");
+	document.createElement("time");
+	document.createElement("mark");
+</script>
+<script src="js/jquery.js"></script>
+<meta charset="utf-8">
+<title>后台管理系统</title>
+</head>
+
+<body id="body">
+<header id="header" class="overflowH">
+    <div class="logo">
+        <img src="images/logo01.png" />
+        <h1>后台管理系统</h1>
+    </div>
+    <div class="pbox">
+    	<hgroup class="overflowH">
+        	<div class="hbox">
+                <a href="login.html" target="_blank"><h4>【退出】</h4></a>
+                <hr>
+                <a href="changepass.html" target="content"><h4>【修改密码】</h4></a>
+            </div>
+            <img src="images/photo18.png" />
+        </hgroup>
+    	<p>您好! admin,欢迎使用后台管理系统</p>
+    </div>
+</header>
+
+<div class="sectionbox overflowH">
+	<div class="asidebox">
+        <aside id="aside">
+            <a href="home.html" target="content"><figure>
+                <div class="img"><img src="images/photo17.png" /></div>
+                <h2>首页</h2>
+            </figure></a>
+            <dl class="currentbor">
+                <dt class="currdtimg">
+                	<div class="dtpho">
+                        <img src="images/photo08.png"/>
+                    </div>
+                	<p>店铺</p>
+                	<div class="dtimg">
+                    	<img src="images/photo09.png"/>
+                        <img src="images/photo10.png"/>
+                    </div>
+                </dt>
+                <dd class="currentimg">
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>店铺管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>店铺列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>审核店铺</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>店铺信息维护</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>商城公告</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>联系平台</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>结算管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>结算列表</h6></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                	<div class="dtpho">
+                        <img src="images/photo04.png"/>
+                    </div>
+                	<p>商品</p>
+                	<div class="dtimg">
+                    	<img src="images/photo09.png"/>
+                        <img src="images/photo10.png"/>
+                    </div>
+                </dt>
+                <dd class="currentimg">
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>商品管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>商品列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>商品库存</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>商品设置</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>分类列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>品牌列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>类型列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>规格列表</h6></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                	<div class="dtpho">
+                        <img src="images/photo03.png"/>
+                    </div>
+                	<p>订单</p>
+                	<div class="dtimg">
+                    	<img src="images/photo09.png"/>
+                        <img src="images/photo10.png"/>
+                    </div>
+                </dt>
+                <dd class="currentimg">
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>订单管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>订单列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>待结算订单</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>单据管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>收款单</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>退货单</h6></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                	<div class="dtpho">
+                        <img src="images/photo06.png"/>
+                    </div>
+                	<p>会员</p>
+                	<div class="dtimg">
+                    	<img src="images/photo09.png"/>
+                        <img src="images/photo10.png"/>
+                    </div>
+                </dt>
+                <dd class="currentimg">
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>会员管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>会员列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>会员等级</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>商品评论</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>商品评论列表</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>购买咨询列表</h6></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                	<div class="dtpho">
+                        <img src="images/photo07.png"/>
+                    </div>
+                	<p>设置</p>
+                	<div class="dtimg">
+                    	<img src="images/photo09.png"/>
+                        <img src="images/photo10.png"/>
+                    </div>
+                </dt>
+                <dd class="currentimg">
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>网店设置</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>系统设置</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>快递平台设置</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>生成索引</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>生成静态页</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>配送和支付</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>支付方式</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>物流公司</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>地区管理</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>快递单管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>快递单模板管理</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>权限管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>管理员管理</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>角色管理</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>权限点管理</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>模板管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>前台模板</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>后台模板</h6></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                	<div class="dtpho">
+                        <img src="images/photo05.png"/>
+                    </div>
+                	<p>开发者</p>
+                	<div class="dtimg">
+                    	<img src="images/photo09.png"/>
+                        <img src="images/photo10.png"/>
+                    </div>
+                </dt>
+                <dd class="currentimg">
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>工具</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>菜单管理</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>数据导出</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>清除示例数据</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>主题管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>站点前台主题</h6></a>
+                    <a href="list.html" target="content"><h6><span></span>站点后台主题</h6></a>
+                </dd>
+                <dd>
+                    <div class="photo">
+                        <img src="images/photo11.png" />
+                        <img src="images/photo12.png" />
+                    </div>
+                    <div class="h3"><h3>页面管理</h3></div>
+                    <a href="list.html" target="content"><h6><span></span>导航栏管理</h6></a>
+                </dd>
+            </dl>
+        </aside>
+    </div>
+    <div class="contentbox">
+        <iframe src="home.html" width="100%" height="600" marginwidth="0" marginheight="0" name="content" scrolling="no" frameborder="0"></iframe>
+    </div>
+</div>
+<footer id="footer">
+    <p>Copyright©2012-2018 All Rights Reserved 第四方电子电器服务平台 版权所有</p>
+    <p>电子电器服务产业升级——集群服务·节约型 京ICP备13050592号</p>
+    <figure>
+        <img src="images/logo03.png" />
+        <img src="images/logo02.png" />
+        <img src="images/logo04.png" />
+    </figure>	
+</footer>
+
+
+<script>
+$("#aside dl dd").hide();
+$("#aside .currentbor dd").show();
+
+$("#aside dl dd h6").hide();
+$("#aside dl .currentimg h6").show();
+
+$("#aside dl dt").click(
+	function (){
+		$(this).addClass("currdtimg");
+		$(this).parent().siblings().find("dt").removeClass("currdtimg");
+	}
+)
+
+
+$("#aside dl:eq(0) dt").click(
+	function (){
+		$("#aside dl:eq(0)").addClass("currentbor").siblings().removeClass("currentbor");
+		$("#aside .currentbor dd").show();
+		$("#aside dl:eq(1) dd").hide();
+		$("#aside dl:eq(2) dd").hide();
+		$("#aside dl:eq(3) dd").hide();
+		$("#aside dl:eq(4) dd").hide();
+		$("#aside dl:eq(5) dd").hide();
+	}
+)
+$("#aside dl:eq(1) dt").click(
+	function (){
+		$("#aside dl:eq(1)").addClass("currentbor").siblings().removeClass("currentbor");
+		$("#aside .currentbor dd").show();
+		$("#aside dl:eq(0) dd").hide();
+		$("#aside dl:eq(2) dd").hide();
+		$("#aside dl:eq(3) dd").hide();
+		$("#aside dl:eq(4) dd").hide();
+		$("#aside dl:eq(5) dd").hide();
+	}
+)
+$("#aside dl:eq(2) dt").click(
+	function (){
+		$("#aside dl:eq(2)").addClass("currentbor").siblings().removeClass("currentbor");
+		$("#aside .currentbor dd").show();
+		$("#aside dl:eq(0) dd").hide();
+		$("#aside dl:eq(1) dd").hide();
+		$("#aside dl:eq(3) dd").hide();
+		$("#aside dl:eq(4) dd").hide();
+		$("#aside dl:eq(5) dd").hide();
+	}
+)
+$("#aside dl:eq(3) dt").click(
+	function (){
+		$("#aside dl:eq(3)").addClass("currentbor").siblings().removeClass("currentbor");
+		$("#aside .currentbor dd").show();
+		$("#aside dl:eq(0) dd").hide();
+		$("#aside dl:eq(2) dd").hide();
+		$("#aside dl:eq(1) dd").hide();
+		$("#aside dl:eq(4) dd").hide();
+		$("#aside dl:eq(5) dd").hide();
+	}
+)
+$("#aside dl:eq(4) dt").click(
+	function (){
+		$("#aside dl:eq(4)").addClass("currentbor").siblings().removeClass("currentbor");
+		$("#aside .currentbor dd").show();
+		$("#aside dl:eq(0) dd").hide();
+		$("#aside dl:eq(2) dd").hide();
+		$("#aside dl:eq(3) dd").hide();
+		$("#aside dl:eq(1) dd").hide();
+		$("#aside dl:eq(5) dd").hide();
+	}
+)
+$("#aside dl:eq(5) dt").click(
+	function (){
+		$("#aside dl:eq(5)").addClass("currentbor").siblings().removeClass("currentbor");
+		$("#aside .currentbor dd").show();
+		$("#aside dl:eq(0) dd").hide();
+		$("#aside dl:eq(2) dd").hide();
+		$("#aside dl:eq(3) dd").hide();
+		$("#aside dl:eq(4) dd").hide();
+		$("#aside dl:eq(1) dd").hide();
+	}
+)
+
+$("#aside dl:eq(0) dd:eq(0) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(0) h6").toggle();
+	}
+)
+$("#aside dl:eq(0) dd:eq(1) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(1) h6").toggle();
+	}
+)
+$("#aside dl:eq(0) dd:eq(2) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(2) h6").toggle();
+	}
+)
+$("#aside dl:eq(1) dd:eq(0) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(0) h6").toggle();
+	}
+)
+$("#aside dl:eq(1) dd:eq(1) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(1) h6").toggle();
+	}
+)
+$("#aside dl:eq(2) dd:eq(0) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(0) h6").toggle();
+	}
+)
+$("#aside dl:eq(2) dd:eq(1) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(1) h6").toggle();
+	}
+)
+$("#aside dl:eq(3) dd:eq(0) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(0) h6").toggle();
+	}
+)
+$("#aside dl:eq(3) dd:eq(1) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(1) h6").toggle();
+	}
+)
+$("#aside dl:eq(4) dd:eq(0) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(0) h6").toggle();
+	}
+)
+$("#aside dl:eq(4) dd:eq(1) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(1) h6").toggle();
+	}
+)
+$("#aside dl:eq(4) dd:eq(2) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(2) h6").toggle();
+	}
+)
+$("#aside dl:eq(4) dd:eq(3) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(3) h6").toggle();
+	}
+)
+$("#aside dl:eq(4) dd:eq(4) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(4) h6").toggle();
+	}
+)
+$("#aside dl:eq(5) dd:eq(0) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(0) h6").toggle();
+	}
+)
+$("#aside dl:eq(5) dd:eq(1) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(1) h6").toggle();
+	}
+)
+$("#aside dl:eq(5) dd:eq(2) .photo img").click(
+	function(){
+		$(this).hide().siblings().show();
+		$("#aside .currentbor dd:eq(2) h6").toggle();
+	}
+)
+
+$("#aside dl:eq(0) dd h6").click(
+	function(){
+		$(this).parent().siblings().find("h6").removeClass("current");
+		$(this).addClass("current").parent().parent().siblings().find("h6").removeClass("current");
+	}
+)
+$("#aside dl:eq(1) dd h6").click(
+	function(){
+		$(this).parent().siblings().find("h6").removeClass("current");
+		$(this).addClass("current").parent().parent().siblings().find("h6").removeClass("current");
+	}
+)
+$("#aside dl:eq(2) dd h6").click(
+	function(){
+		$(this).parent().siblings().find("h6").removeClass("current");
+		$(this).addClass("current").parent().parent().siblings().find("h6").removeClass("current");
+	}
+)
+$("#aside dl:eq(3) dd h6").click(
+	function(){
+		$(this).parent().siblings().find("h6").removeClass("current");
+		$(this).addClass("current").parent().parent().siblings().find("h6").removeClass("current");
+	}
+)
+$("#aside dl:eq(4) dd h6").click(
+	function(){
+		$(this).parent().siblings().find("h6").removeClass("current");
+		$(this).addClass("current").parent().parent().siblings().find("h6").removeClass("current");
+	}
+)
+$("#aside dl:eq(5) dd h6").click(
+	function(){
+		$(this).parent().siblings().find("h6").removeClass("current");
+		$(this).addClass("current").parent().parent().siblings().find("h6").removeClass("current");
+	}
+)
+
+
+</script>
+
+
+</body>
+</html>

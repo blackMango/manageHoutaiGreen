@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sectionbox .asidebox {
+	width:18%;
+	min-width:180px;
+	float:left;
+	margin:10px 1% 0px;
+}
+.sectionbox .contentbox {
+	width:79%;
+	min-width:800px;
+	float:left;
+}
+iframe {
+	margin-top:10px;
+	border:3px solid #019f49;
+	border-radius:4px;
+}

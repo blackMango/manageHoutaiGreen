@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.body {
+	background-color:#fff;
+}
+#section {
+	padding:100px 0px 0px;
+}
+#section > .password,#section > .test {
+	width:500px;
+	margin:20px auto;
+}
+#section > .password h4,#section > .test h4 {
+	width:100px;
+	float:left;
+	line-height:36px;
+	color:#000;
+	font-size:16px;
+	font-weight:normal;
+	text-align:justify;
+	font-family:"创艺简楷体";
+	text-align-last:justify;
+}
+#section > .password input[type = password] {
+	display:inline-block;
+	width:400px;
+	float:left;
+	border:1px solid #7df6b4;
+	line-height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 8px;
+	font-family:"创艺简楷体";
+}
+#section > .test input[type = tel] {
+	display:inline-block;
+	width:200px;
+	float:left;
+	border:1px solid #7df6b4;
+	border-right:none;
+	line-height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 8px;
+	font-family:"创艺简楷体";
+}
+#section > .test span {
+	width:120px;
+	line-height:36px;
+	color:#000;
+	font-size:18px;
+	background-color:#eee;
+	text-align:center;
+	float:left;
+	border-top:1px solid #7df6b4;
+	border-bottom:1px solid #7df6b4;
+	font-family:"迷你简菱心";
+	letter-spacing:4px;
+	font-weight:bold;
+}
+#section > .test .img {
+	float:left;
+	width:80px;
+	height:38px;
+	border:1px solid #7df6b4;
+	border-left:none;
+	background-color:#fff;
+}
+#section > .test .img img {
+	height:26px;
+	margin:5px auto;
+	cursor:pointer;
+}
+
+#section .btn {
+	width:200px;
+	margin:20px auto 0px;
+	line-height:40px;
+	color:#fff;
+	font-size:22px;
+	background-color:#019f49;
+	text-align:center;
+	border-radius:8px;
+	font-family:"创艺简楷体";
+}
+

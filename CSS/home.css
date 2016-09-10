@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#header h1 {
+	font-size:28px;
+	line-height:40px;
+	text-align:center;
+	color:#019f49;
+	margin:40px auto 20px;
+}
+#section {
+	padding:0px 2%;
+}
+#section table {
+	width:31.33%;
+	float:left;
+	margin:10px 1%;
+	border-spacing:0px;
+	background-color:#fff;
+	border:1px solid #c9c9c9;
+}
+#section table th {
+	background-color:#fff;
+	border:none;
+	font-size:18px;
+	line-height:40px;
+	color:#000;
+	font-family:"创艺简楷体";
+	font-weight:normal;
+}
+#section table td {
+	border:1px solid #c9c9c9;
+	border-bottom:none;
+	border-right:none;
+	line-height:30px;
+	text-align:center;
+}
+#section table td:nth-child(1) {
+	border-left:none;
+	color:#333;
+}
+#section table col {
+	background-color:#7df6b4;
+}
+
+
+
+
+
+
+
+
